@@ -373,15 +373,15 @@ def main(args_train_batch_size, args_num_train_epochs, args_learning_rate, args_
     label_model_save_path_vanilla = args.label_model_save_path
     statement_model_save_path_vanilla = args.statement_model_save_path
 
-    train_path = 'G:/My Drive/UIC/Research/top-K-entailment/data/ultrafine_acl18/release/crowd/train.json'
-    dev_path = 'G:/My Drive/UIC/Research/top-K-entailment/data/ultrafine_acl18/release/crowd/dev.json'
-    test_path = 'G:/My Drive/UIC/Research/top-K-entailment/data/ultrafine_acl18/release/crowd/test.json'
+    train_path = '../data/ultrafine_acl18/release/crowd/train.json'
+    dev_path = '../data/ultrafine_acl18/release/crowd/dev.json'
+    test_path = '../data/ultrafine_acl18/release/crowd/test.json'
 
-    type_path = 'G:/My Drive/UIC/Research/top-K-entailment/data/ultrafine_acl18/release/ontology/types.txt'
-    types_vector_path = 'G:/My Drive/UIC/Research/top-K-entailment/data/types_vector_768-test.txt'
-    statement_model_save_dir = 'G:/My Drive/UIC/Research/top-K-entailment/saved_model/statement_model/'
-    label_model_save_dir = 'G:/My Drive/UIC/Research/top-K-entailment/saved_model/label_model/'
-    result_dir = 'G:/My Drive/UIC/Research/top-K-entailment/results_top_k/'
+    type_path = '../data/ultrafine_acl18/release/ontology/types.txt'
+    types_vector_path = '../data/types_vector_768-test.txt'
+    statement_model_save_dir = '../saved_model/statement_model/'
+    label_model_save_dir = '../saved_model/label_model/'
+    result_dir = '../results_top_k/'
     pretrain_model_dir = 'bert-base-cased'
     # pretrain_model_dir = 'roberta-large'
 
